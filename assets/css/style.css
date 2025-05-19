@@ -4618,7 +4618,7 @@ p.slill-text {
   position: relative;
 }
 .widgets-company-info1 p {
-    margin-top: 5px;
+    margin-top: 20px;
     padding-top: 5px;
   font-size: 18px;
   color: #fff !important;
@@ -8420,4 +8420,126 @@ ul.social-box li a:hover {
   max-width: 450px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(40, 199, 133, 0.15);
+}
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.our-members {
+  font-size: 16px;
+  color: #28c785;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.meet-teams {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #0d1b2a;
+}
+
+.team-cards {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(40, 199, 133, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(40, 199, 133, 0.3);
+}
+
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.team1 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card-body2 {
+  padding: 0 15px;
+}
+
+.team-members-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.team-profession-2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.team-ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.team-ul li {
+  list-style: none;
+
+}
+.teams-social-icon i{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-social-icon {
+  font-size: 1.6rem !important;
+  color: #28c785;
+  transition: color 0.3s, background-color 0.3s;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.teams-social-icon:hover {
+  color: #000;
+  transform: scale(1.2);
+}
+
+.teams-arrow {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 18px;
+  color: #28c785;
+  transition: color 0.3s;
+}
+
+.teams-arrow:hover {
+  color: #0d1b2a;
+}
+
+.teams-row {
+  margin-top: 20px;
 }

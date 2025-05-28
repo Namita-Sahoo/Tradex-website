@@ -1322,6 +1322,7 @@ ul.sub-menu li:hover a span{
     z-index: 1;
     margin-bottom: 20px;
 }
+
 /* 
 .style-three .em-service-icon1:after {
     position: absolute;
@@ -7782,7 +7783,7 @@ ul.social-box li a:hover {
 }
 
 .about-box-section .why-choose-tradex figure img {
-  max-width: 40px;
+  max-width: 60px;
   height: auto;
 }
 
@@ -7960,11 +7961,13 @@ ul.social-box li a:hover {
 }
 
 .mission-icons {
-    width: 50px;
-    height: 70px;
+    width: 40px;
+    height: 50px;
     padding-bottom: 10px;
 }
-
+.contact-us-box-p a{
+    color:white;
+}
 .text-center {
     text-align: left;
 }
@@ -8543,3 +8546,8 @@ ul.social-box li a:hover {
 .teams-row {
   margin-top: 20px;
 }
+.values-section {
+  background: #f9fcff;
+}
+
+

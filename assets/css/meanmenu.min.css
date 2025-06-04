@@ -1,6 +1,6 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #28C785;
+  background: #172758;
   float: left;
   min-height: 60px;
   padding: 4px 0 0;
@@ -120,12 +120,14 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mean-container .mean-bar::before {
-    color: #fff;
-    content: "Tradex";
-    font-size: 28px;
-    font-weight: 600;
-    left: 10px;
+    content: "";
     position: absolute;
-    top: 18px;
+    left: 10px;
+    top: 10px; /* adjust vertical alignment */
+    width: 120px; /* adjust width as per your logo */
+    height: 40px; /* adjust height as per your logo */
+    background: url('../images/tradex_logo.png') no-repeat center center;
+    background-size: contain;
+    display: block;
 }
 

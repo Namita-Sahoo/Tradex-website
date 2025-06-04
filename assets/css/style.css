@@ -4609,7 +4609,9 @@ p.slill-text {
 .style-two .footer-bg {
     padding: 85px 0 90px;
 }
-
+.para{
+    color: #fff !important;
+}
 .widgets-company-info1 {
   background-color: #091434;
   padding: 20px;
@@ -8549,5 +8551,18 @@ ul.social-box li a:hover {
 .values-section {
   background: #f9fcff;
 }
+p{
+    text-align: justify;
+}
 
+.tagline-highlight {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  font-weight: 500;
+  color: #1e3a8a; /* deep blue for trust */
+  padding-bottom: 4px;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
 

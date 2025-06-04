@@ -21,10 +21,11 @@
         }
     });
 
-    // Loder  //
-    $(function () {
+    $(window).on('load', function () {
+    setTimeout(function () {
         $('body').addClass('loaded');
-    });
+    }, 1000); // 1000ms = 1s delay after full load
+});
 
     // Case Study Active
     $('.case-study').owlCarousel({
